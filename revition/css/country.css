@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(252, 2, 206);
+}
+
+body {
+    background-color: rgb(222, 206, 185);
+}
+
+#section {
+    display: flex;
+    justify-content: center;
+}
+
+#countryes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.country {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #939393;
+}
